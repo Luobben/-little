@@ -6,8 +6,9 @@
 
 proxy-providers:
 
-  火烧云:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  混合:
+    url: "https://sub.gpt-agent.cc/s/3add465eb473a96b10c4f28128afbf0e
+https://hongxingdl.love/hxyunvip?token=2869d96ac762de14cc29fb0dc691f3cb"
     type: http
     interval: 86400
     health-check:
@@ -15,29 +16,9 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连 
-    
-  冰云:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
-  小牛:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
+     
   硅谷:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+    url: "https://sub.gpt-agent.cc/s/3add465eb473a96b10c4f28128afbf0e"
     type: http
     interval: 86400
     health-check:
@@ -45,49 +26,9 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连      
-  
-  无界:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连   
-   
-  猫耳:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连   
-
-  快猫:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连 
-    
-  BestVPN:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连     
-
-  牛逼:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+      
+  红杏:
+    url: "https://hongxingdl.love/hxyunvip?token=2869d96ac762de14cc29fb0dc691f3cb"
     type: http
     interval: 86400
     health-check:
