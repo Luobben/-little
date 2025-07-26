@@ -6,38 +6,8 @@
 
 proxy-providers:
 
-  火烧:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连 
-
-  冰云:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连  
-    
-  小牛:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连    
-
   硅谷:
-    url: "机场订阅地址"
+    url: "https://guigusub2.acwct.cn/s/3add465eb473a96b10c4f28128afbf0e"
     type: http
     interval: 86400
     health-check:
@@ -46,8 +16,8 @@ proxy-providers:
       interval: 180
     proxy: 直连
 
-  无界:
-    url: "机场订阅地址"
+  红杏:
+    url: "https://hongxingyun10.vip/hxyunvip?token=d92c2ce10fad0c8d7a13402a5f6154bc"
     type: http
     interval: 86400
     health-check:
@@ -55,46 +25,6 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 180
     proxy: 直连
-   
-  猫耳:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连   
-
-  快猫:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连    
-    
-  BestVPN:
-    url: "机场订阅地址a"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连    
-
-  牛逼:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连      
 
 proxies:
   - {name: 直连, type: direct}
@@ -242,7 +172,7 @@ proxy-groups:
   - name: 所有-智选
     type: smart
     include-all: true
-    policy-priority: ".*牛逼.*:0.8;.*(香港|HK).*:1.2"
+    policy-priority: ".*(香港|HK).*:1.2"
     uselightgbm: true
     collectdata: true
     health-check: 
