@@ -7,7 +7,7 @@
 proxy-providers:
 
   硅谷:
-    url: "https://guigusub2.acwct.cn/s/3add465eb473a96b10c4f28128afbf0e"
+    url: "地址"
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连
 
   红杏:
-    url: "https://hongxingyun10.vip/hxyunvip?token=d92c2ce10fad0c8d7a13402a5f6154bc"
+    url: "地址"
     type: http
     interval: 86400
     health-check:
